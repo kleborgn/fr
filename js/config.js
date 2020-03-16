@@ -2,7 +2,7 @@
 /* CONFIG                                                                                                         */
 /******************************************************************************************************************/
 
-/* Edit the array as you wish. It will contain the typed strings. */
+/* Contain the typed strings. */
 var config_typedArray = ["Etudiant, passioné de cybersécurité."];
 
 /* Disable Parallax effect on touch devices for performance reasons. */

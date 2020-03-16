@@ -1,9 +1,299 @@
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+
+<head>
+	<!-- Metatags -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="keywords" content="keyword1, keyword2, keyword3" />
+	<meta name="description" content="Description">
+	<meta name="author" content="Author">
+
+	<title>Kilian LE BORGNE</title>
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Google Fonts -->
+	<link href="fonts.googleapis.com/cssf081.css?family=Roboto+Condensed:200,300,300i,400,700" rel="stylesheet">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+	<!-- Pretty Photo -->
+	<link rel="stylesheet" href="css/prettyPhoto.css" />
+
+	<!-- Flickity -->
+	<link rel="stylesheet" href="css/flickity.css" />
+
+	<!-- animate.css -->
+	<link rel="stylesheet" href="css/animate.css" />
+
+	<!-- Skills bar -->
+	<link rel="stylesheet" href="css/skills-bar.css" />
+
+	<!-- custom.css -->
+	<link rel="stylesheet" href="css/custom.css">
+
+	<!-- Color skin -->
+	<link rel="stylesheet" href="css/skin/blue.css">
+
+	<!-- Modernizr -->
+	<script src="js/modernizr-custom.js"></script>
+
+</head>
+
+<body>
+
+	<!-- Truc qui tourne -->
+	<div id="preloader"></div>
+
+	<!-- HEADER -->
+	<header>
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top navbar-inverse">
+			<div class="container">
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="img/skin/gray/logo.png" alt="bestAG" /></a>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-0 ml-auto">
+						<li class="nav-item">
+							<a class="nav-link active" href="#hero">Accueil <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">A propos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#services">Projets</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- HEADER END -->
+
+	<div id="content-wrap">
+
+		<!-- ACCUEIL -->
+		<div class="jumbotron" id="#hero" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
+			<canvas id="effect-js"></canvas>
+			<div id="particles-js"></div>
+			<div id="bg-video-wrap">
+				<video id="bg-video" playsinline autoplay muted loop>
+				</video>
+			</div>
+			<div class="container">
+				<h1>Bonjour, je suis KILIAN</h1>
+				<span class="typed"></span>
+				<div class="typed-wrap"></div>
+				<a href="#portfolio" class="btn btn-primary portfolio-link scroll-link">Voir mes projets</a>
+			</div>
+		</div>
+		<!-- ACCUEIL END -->
+
+		<!-- bouncing arrow -->
+		<div class="arrow-wrap">
+			<a href="#about" class="arrow down-bounce scroll-link fa fa-angle-double-down"></a>
+		</div>
+
+		<!-- ABOUT -->
+		<section id="about">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-6 col-12">
+						<div class="photo-wrap">
+							<img src="img/moi.png" class="photo" alt="" />
+							<div class="photo-overlay">
+								<div class="photo-text social">
+									<a href="https://github.com/kleborgn"><i class="fa fa-github"
+											title="GitHub"></i></a>
+									<a href="https://gitlab.com/kleborgne"><i class="fa fa-gitlab"
+											title="GitLab"></i></a>
+									<a href="https://www.root-me.org/Kiliarox"><i class="fa fa-unlock-alt"
+											title="Root-Me"></i></a>
+									<a href="https://www.linkedin.com/in/kilian-le-borgne-71258b9a/"><i
+											class="fa fa-linkedin" title="LinkedIn"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="aboutRight" class="col-lg-6 col-12">
+						<div>
+							<h4>Bonjour, je suis Kilian</h4>
+							<h2>A PROPOS DE MOI</h2>
+						</div>
+						<div>
+							<p>
+								Actuellement en DUT Informatique à l'Institut Universitaire de Technologie de Lannion
+								(22),
+								je souhaite m'orienter vers un diplôme d'Ingénieur pour travailler plus tard dans le
+								domaine
+								de la cybersécurité.
+							</p>
+							<p>
+								Je suis autodidacte, j'apprends vite et j'arrive facilement à m'adapter. Je suis
+								impliqué dans
+								le milieu associatif, actuellement Trésorier pour le Bureau des Etudiants de l'IUT.
+							</p>
+							<p>
+								J'ai aussi pratiqué l'équitation pendant une dizaine d'années en faisant de la
+								compétition à
+								haut niveau. Je suis titulaire du Galop 7.
+							</p>
+						</div>
+						<div id="skillbar-wrap">
+							<div class="skillbar" data-percent="95">
+								<p class="skillbar-bar"></p>
+								<span class="skillbar-title">HTML, CSS</span>
+							</div>
+							<div class="skillbar" data-percent="40">
+								<p class="skillbar-bar"></p>
+								<span class="skillbar-title">Javascript</span>
+							</div>
+							<div class="skillbar" data-percent="80">
+								<p class="skillbar-bar"></p>
+								<span class="skillbar-title">SQL</span>
+							</div>
+							<div class="skillbar" data-percent="80">
+								<p class="skillbar-bar"></p>
+								<span class="skillbar-title">Bash, AWK</span>
+							</div>
+							<div class="skillbar" data-percent="85">
+								<p class="skillbar-bar"></p>
+								<span class="skillbar-title">C, Java</span>
+							</div>
+							<div class="skillbar" data-percent="70">
+								<p class="skillbar-bar"></p>
+								<span class="skillbar-title">Python</span>
+							</div>
+							<div class="skillbar" data-percent="80">
+								<p class="skillbar-bar"></p>
+								<span class="skillbar-title">UML, Git</span>
+							</div>
+							<div class="skillbar" data-percent="40">
+								<p class="skillbar-bar"></p>
+								<span class="skillbar-title">Photoshop, Illustrator</span>
+							</div>
+							<div class="skillbar" data-percent="95">
+								<p class="skillbar-bar"></p>
+								<span class="skillbar-title">Suite Office</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ABOUT END -->
+
+		<!-- PORTFOLIO -->
+		<section id="portfolio">
+			<div class="section-header">
+				<div>
+					<h2>Mes projets</h2>
+				</div>
+			</div>
+			<div class="container">
+				<div id="filters-group">
+					<a class="filter" data-filter="*">Tout</a>
+					<a class="filter" data-filter=".web">Web</a>
+					<a class="filter" data-filter=".java">Java</a>
+					<a class="filter" data-filter=".c">C</a>
+				</div>
+				<div id="portfolio-items" class="row">
+					<div class="item col-md-6 col-lg-4 photography" data-category="photography">
+						<a title="A venir" data-rel="prettyPhoto" href="img/portfolio/portfolio1.jpg">
+							<div class="item-wrap">
+								<img class="img-fluid" src="img/portfolio/portfolio1.jpg" alt="Photography">
+							</div>
+							<span class="magnifier"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- PORTFOLIO END -->
+	</div>
+
+	<div id="footer-wrap">
+
+		<!-- CONTACT INFO  -->
+		<div id="contact2">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-8">
+						<p>
+							N'hésitez pas à me contacter directement par mail ou sur LinkedIn !
+						</p>
+					</div>
+					<div class="col-12 col-md-4">
+						<div>
+							<a href="mailto:kikilebor@live.fr">
+								<i class="fa fa-envelope"> </i> kikilebor@live.fr
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- CONTACT INFO END -->
+
+		<!-- FOOTER -->
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-6">
+						<p>Copyright &copy; 2020 Kilian LE BORGNE</p>
+					</div>
+					<div class="col-12 col-sm-6 social">
+						<p class="pull-right">
+							<a href="https://github.com/kleborgn"><i class="fa fa-github" title="GitHub"></i></a>
+							<a href="https://gitlab.com/kleborgne"><i class="fa fa-gitlab" title="GitLab"></i></a>
+							<a href="https://www.root-me.org/Kiliarox"><i class="fa fa-unlock-alt"
+									title="Root-Me"></i></a>
+							<a href="https://www.linkedin.com/in/kilian-le-borgne-71258b9a/"><i class="fa fa-linkedin"
+									title="LinkedIn"></i></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- FOOTER END -->
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery-migrate-3.0.0.min.js"></script>
+	<script src="js/tether.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script src="js/flickity.pkgd.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/jquery.debouncedresize.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/typed.min.js"></script>
+	<script src="js/skill.bars.jquery.js"></script>
+	<script src="js/particles.min.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/custom.js"></script>
+
+</body>
+
 </html>

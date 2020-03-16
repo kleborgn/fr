@@ -507,7 +507,7 @@ nav ul li {
 .photo-wrap {
     position: relative;
     width: 100%;
-    top: 120px;
+    top: 200px;
 }
 
 .photo-text .fa, .photo-text .fa:visited, .photo-text .fa:active, .photo-text .fa:focus {
@@ -590,6 +590,7 @@ nav ul li {
 #portfolio {
     padding-bottom: 4rem;
     border-radius: 0;
+    background-color: #b48d6c;
 }
 
 #portfolio .item {
@@ -650,7 +651,7 @@ nav ul li {
     font-size: 1rem;
     border-radius: 15px;
     border: 0;
-    color: #999 !important;
+    color: #007aeb !important;
     cursor: pointer;
     outline: 0;
     display: inline-block;
@@ -662,6 +663,10 @@ nav ul li {
 #portfolio .filter:hover, .portfolio .filter:active, .portfolio .filter:focus {
     color: #333 !important;
 
+}
+
+#portfolio .section-header {
+    color: #FFF;
 }
 
 /******************************************************************************************************************/
